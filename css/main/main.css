@@ -130,4 +130,41 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 10em;
+}
+
+@media only screen and (max-width: 1700px) {
+  .hero-container h2 {
+    font-size: 20px;
+  }
+  .hero-container h1 {
+    font-size: 55px;
+  }
+  .hero-container .watermark {
+    font-size: 400px;
+  }
+  .hero-container .watermark-2 {
+    font-size: 400px;
+  }
+  .hero-container .ver-mas {
+    display: block;
+    text-align: center;
+    background-color: #EEEEEE;
+    color: black;
+    border: 2px solid black;
+    width: 8em;
+    border-radius: 5em;
+    padding: 0.5em;
+    margin-top: 1.5em;
+    font-size: 18px;
+  }
+  .hero-container .ver-mas:hover {
+    background-color: black;
+    color: white;
+  }
+  .black-design {
+    width: 36em;
+  }
+  .black-line {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

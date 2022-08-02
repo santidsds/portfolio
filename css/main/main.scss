@@ -185,4 +185,61 @@ body {
 }
 
 
+@media only screen and (max-width:1700px){
 
+    .hero-container {
+        h2 {
+            font-size: 20px;
+        }
+
+        h1 {
+            font-size: 55px;
+        }
+
+        .watermark{
+            font-size: 400px;
+
+        }
+        .watermark-2{
+            font-size: 400px;
+        }
+
+        .ver-mas {
+            display: block;
+            text-align: center;
+            background-color: #EEEEEE;
+            color: black;
+            border: 2px solid black;
+            width: 8em;
+            border-radius: 5em;
+            
+            padding: 0.5em;
+            margin-top: 1.5em;
+            
+            font-size: 18px;
+    
+                &:hover{
+                    background-color: black;
+                    color: white;
+                    
+                   
+                }
+    
+        }
+
+
+        
+    }
+
+    .black-design {
+        
+        
+        width: 36em;
+        
+    }
+
+    .black-line{
+        display: none;
+    }
+
+}
