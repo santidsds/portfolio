@@ -242,4 +242,27 @@ body {
         display: none;
     }
 
+    .nav-bar {
+        padding: 3em;
+       
+        width: 30vw;
+        display: flex;
+        justify-content: space-around;
+            
+       
+        
+        a {
+            z-index: 50;
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+             &:hover {
+                 text-decoration: underline 5px;
+                 
+                 
+             }
+                
+        }
+    }
+
 }

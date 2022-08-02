@@ -167,4 +167,20 @@ body {
   .black-line {
     display: none;
   }
+  .nav-bar {
+    padding: 3em;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-bar a {
+    z-index: 50;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .nav-bar a:hover {
+    -webkit-text-decoration: underline 5px;
+            text-decoration: underline 5px;
+  }
 }/*# sourceMappingURL=main.css.map */
