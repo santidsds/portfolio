@@ -85,15 +85,17 @@ body {
   font-weight: 600;
   margin-left: em;
 }
+.hero-section img {
+  display: none;
+  width: 100px;
+  margin-left: 23vw;
+  margin-bottom: -20em;
+}
 
 .nav-container {
   display: flex;
   justify-content: end;
   margin-right: -50px;
-}
-.nav-container:hover .black-design {
-  transition: 1s ease-out 100ms;
-  transform: translateY(200px);
 }
 
 .nav-bar {
@@ -114,6 +116,7 @@ body {
 }
 
 .black-line {
+  display: none;
   margin: 3em 38em auto auto;
   width: 500px;
   background: black;
