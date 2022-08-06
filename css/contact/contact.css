@@ -18,6 +18,12 @@ body {
   margin-right: -50px;
   background-color: black;
 }
+.nav-container h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 0.5em;
+  margin-right: 19.5em;
+}
 
 .nav-bar {
   padding: 3em;
@@ -34,4 +40,16 @@ body {
 .nav-bar a:hover {
   -webkit-text-decoration: underline 5px;
           text-decoration: underline 5px;
+}
+
+@media only screen and (max-width: 1700px) {
+  .nav-bar a {
+    font-size: 20px;
+  }
+  .nav-container h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 0.8em;
+    margin-right: 19em;
+  }
 }/*# sourceMappingURL=contact.css.map */

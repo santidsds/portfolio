@@ -16,6 +16,13 @@ body {
 }
 
 .nav-container {
+    h1 {
+        color: white;
+        font-size: 50px;
+        margin-top: 0.5em;
+        margin-right: 21em;
+    }
+
     display: flex;
     justify-content: end;
     margin-right: -50px;
@@ -49,4 +56,27 @@ body {
          
             
     }
+}
+
+@media only screen and (max-width:1700px){
+
+    .nav-bar {
+
+        a {
+            font-size: 20px;
+        }
+        
+    }
+
+    .nav-container {
+        h1 {
+            color: white;
+            font-size: 40px;
+            margin-top: 0.8em;
+            margin-right: 21em;
+        }
+    
+        
+        
+    } 
 }
