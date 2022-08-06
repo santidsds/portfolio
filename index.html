@@ -13,10 +13,10 @@
 <p class="watermark-2">Web Dev</p>
 
 <section class="hero-section">
-    <div class="black-design">
+    <div class="black-design" id="h-animation-x">
     </div>
     
-    <div class="nav-container">
+    <div class="nav-container" id="h-animation-x">
     <nav class="nav-bar">
         <a class='nav-item' href="Work.html">Work</a>
         <a class='nav-item' href="About.html">About</a>
@@ -24,9 +24,9 @@
     </nav>
     </div>
     <div class="hero-container">
-        <h2>SANTIAGO DA SILVA</h2>
-        <H1>Junior Web Developer & UI/UX Designer </H1>
-        <a class="ver-mas" href="About.html">
+        <h2 id="h-animation-1">SANTIAGO DA SILVA</h2>
+        <H1 id="h-animation-2" >Junior Web Developer & UI/UX Designer </H1>
+        <a class="ver-mas" id="h-animation-3" href="About.html">
           See more
         </a>
         <a href="About.html">
@@ -45,4 +45,13 @@
 
     
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script>
+gsap.from("#h-animation-x", {opacity: 0, x: 200,ease: "elastic.out(1,3)",duration: 1.5,delay:1});
+gsap.from("#h-animation-1", {opacity: 0,ease: "elastic.out(0.1,0.3)",y: -100, duration: 2,delay:0.5});
+gsap.from("#h-animation-2", {opacity: 0,ease: "elastic.out(0.5,0.3)",x: -300,duration: 2});
+gsap.from("#h-animation-3", {opacity: 0,ease: "elastic.out(1,0.5)",x: -100, duration: 1,delay:1});
+</script>
+
 </html>

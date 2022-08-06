@@ -11,6 +11,10 @@
     }
 }
 
+body {
+    background: #EEEEEE;
+}
+
 .nav-container {
     display: flex;
     justify-content: end;
@@ -29,7 +33,7 @@
     display: flex;
     justify-content: space-around;
         
-   
+    
     
     a {
         z-index: 50;
@@ -41,6 +45,8 @@
              
              
          }
+
+         
             
     }
 }
