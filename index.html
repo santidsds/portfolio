@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santiago Da Silva</title>
     <link rel="stylesheet" href="css/main/main.css">
+    <link rel="stylesheet" href="/node_modules/sal.js/dist/sal.css">
 </head>
-<body>
+<body id="body">
 
 <p class="watermark">design</p>
 <p class="watermark-2">Web Dev</p>
@@ -38,25 +39,50 @@
 </section>
 
 <section id="otra" class="otra">
-    <h1>MY SKILLS</h1>
+    <h1
+    data-sal-duration="1200"
+    data-sal="slide-up"
+    data-sal-delay="100"
+    data-sal-easing="ease-out-bounce"
+    >MY SKILLS</h1>
 
-    <div class="react-cont">
+    <div 
+    data-sal-duration="1100"
+    data-sal="slide-up"
+    data-sal-delay="300"
+    data-sal-easing="ease-out-bounce"
+    class="react-cont">
         <h1 id="react-label" class="react-label">REACT</h1>
        <img id="react" class="react-img" src="/Icons CV/react.svg" alt=""> 
     </div>
 
-    <div class="html-cont">
+    <div 
+    data-sal-duration="1100"
+    data-sal="slide-up"
+    data-sal-delay="300"
+    data-sal-easing="ease-out-bounce"
+    class="html-cont">
         <img id="html" class="html-img" src="/Icons CV/html.svg" alt="">
         <h1 id="html-label" class="html-label">HTML</h1>
         
     </div>
 
-    <div class="css-cont">
+    <div 
+    data-sal-duration="1100"
+    data-sal="slide-up"
+    data-sal-delay="300"
+    data-sal-easing="ease-out-bounce"
+    class="css-cont">
         <h1 id="css-label" class="css-label">CSS</h1>
         <img id="css" class="css-img" src="/Icons CV/css.svg">
     </div>
 
-    <div class="js-cont">
+    <div 
+    data-sal-duration="1100"
+    data-sal="slide-up"
+    data-sal-delay="300"
+    data-sal-easing="ease-out-bounce"
+    class="js-cont">
         <img id="js" class="js-img" src="/Icons CV/javascript.svg">
         <h1 id="js-label" class="js-label">JAVASCRIPT</h1>
         
@@ -67,10 +93,29 @@
     
 </section>
 
+
+
     
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
 <script src="Js/main/main.js"></script>
+<script src="/node_modules/sal.js/dist/sal.js"></script>
+<script type="module">
+
+    import jump from "/node_modules/jump.js/dist/jump.module.js";
+
+    let button = document.getElementById("h-animation-3");
+
+    button.addEventListener('click', () => {
+        jump(".otra");
+    })
+
+    sal({
+        thereshold: 1,
+        once: true,
+    });
+
+</script>
 
 </html>

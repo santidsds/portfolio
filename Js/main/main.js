@@ -103,3 +103,13 @@ jsLabel.addEventListener('mouseout', () => {
     jsLabel.style.opacity = "0";
     jsLabel.style.visibility = "hidden";
 })  
+
+//See more button
+
+let heroButton = document.getElementById('h-animation-3');
+let body = document.getElementById('body');
+
+heroButton.addEventListener('click', () => {
+    body.style.overflow = "visible"
+    body.style.overflowX = "hidden"
+})

@@ -13,7 +13,7 @@
 
 body {
     background: #EEEEEE;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .watermark, .watermark-2 {
@@ -189,13 +189,13 @@ body {
     }
 
     img {
-        width: 250px;
+        width: 300px;
         
         transition-duration: 1s;
 
         &:hover {
             cursor: pointer;
-            width: 300px;
+            width: 350px;
         }
     }
     
@@ -204,7 +204,7 @@ body {
 
     H1 {
         
-        font-size: 150px;
+        font-size: 120px;
         margin-left: 1em;
         
         
@@ -323,6 +323,8 @@ body {
     justify-content: center;
     margin-top: 10em;
 }
+
+
 
 
 @media only screen and (max-width:1700px){

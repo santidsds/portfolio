@@ -10,7 +10,7 @@
 
 body {
   background: #EEEEEE;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .watermark:hover, .watermark-2:hover {
@@ -146,15 +146,15 @@ body {
   cursor: pointer;
 }
 .otra img {
-  width: 250px;
+  width: 300px;
   transition-duration: 1s;
 }
 .otra img:hover {
   cursor: pointer;
-  width: 300px;
+  width: 350px;
 }
 .otra H1 {
-  font-size: 150px;
+  font-size: 120px;
   margin-left: 1em;
 }
 

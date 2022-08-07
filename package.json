@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santidsds/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santidsds/portfolio/issues"
+  },
+  "homepage": "https://github.com/santidsds/portfolio#readme",
+  "dependencies": {
+    "jump.js": "^1.0.2",
+    "sal.js": "^0.8.5"
+  }
+}
