@@ -106,6 +106,33 @@ body {
         }
     }
 
+    .js-cont {
+        margin-left: -13em;
+        margin-top: 10em;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .js-label {
+        margin-right: 1em;
+        color: #f0db4f;
+        align-self: center;
+        justify-self: flex-end;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1s, opacity 1s linear;
+
+        transition: 0.5s;
+        font-size: 100px;
+        
+        &:hover {
+            cursor: pointer;
+            
+        }
+    }
+
     .css-cont {
         margin-left: 14em;
         margin-top: 10em;
@@ -218,6 +245,7 @@ body {
 .hero-section {
     height: 100vh;
 
+
     h1 {
         font-size: 75px;
         width:12em
@@ -232,15 +260,6 @@ body {
         font-weight: 600;
         margin-left: em;
     }
-
-    img {
-        display: none;
-        width: 100px;
-        margin-left:23vw;
-        margin-bottom: -20em;
-
-    }
-    
     
 }
 

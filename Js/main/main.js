@@ -78,3 +78,28 @@ cssLabel.addEventListener('mouseout', () => {
     cssLabel.style.opacity = "0";
     cssLabel.style.visibility = "hidden";
 })  
+
+//JS
+
+let js = document.getElementById("js");
+let jsLabel = document.getElementById("js-label")
+
+js.addEventListener('mouseover', () => {
+    jsLabel.style.visibility = "visible";
+    jsLabel.style.opacity = "1";
+})
+
+js.addEventListener('mouseout', () => {
+    jsLabel.style.opacity = "0";
+    jsLabel.style.visibility = "hidden";
+})
+
+jsLabel.addEventListener('mouseover', () => {
+    jsLabel.style.visibility = "visible";
+    jsLabel.style.opacity = "1";
+})
+
+jsLabel.addEventListener('mouseout', () => {
+    jsLabel.style.opacity = "0";
+    jsLabel.style.visibility = "hidden";
+})  

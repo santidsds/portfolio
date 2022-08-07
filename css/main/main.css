@@ -80,6 +80,27 @@ body {
 .otra .react-label:hover {
   cursor: pointer;
 }
+.otra .js-cont {
+  margin-left: -13em;
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
+}
+.otra .js-label {
+  margin-right: 1em;
+  color: #f0db4f;
+  align-self: center;
+  justify-self: flex-end;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s linear;
+  transition: 0.5s;
+  font-size: 100px;
+}
+.otra .js-label:hover {
+  cursor: pointer;
+}
 .otra .css-cont {
   margin-left: 14em;
   margin-top: 10em;
@@ -169,12 +190,6 @@ body {
   font-size: 25px;
   font-weight: 600;
   margin-left: em;
-}
-.hero-section img {
-  display: none;
-  width: 100px;
-  margin-left: 23vw;
-  margin-bottom: -20em;
 }
 
 .nav-container {
