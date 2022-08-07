@@ -10,7 +10,7 @@
 
 body {
   background: #EEEEEE;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .watermark:hover, .watermark-2:hover {
@@ -54,6 +54,87 @@ body {
   margin-right: -100px;
 }
 
+.otra {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.otra .react-cont {
+  margin-top: 10em;
+  margin-left: 5em;
+  display: flex;
+  justify-content: center;
+}
+.otra .react-label {
+  margin-right: 1em;
+  color: #00d8ff;
+  align-self: center;
+  justify-self: flex-end;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s linear;
+  transition: 0.5s;
+  font-size: 100px;
+}
+.otra .react-label:hover {
+  cursor: pointer;
+}
+.otra .css-cont {
+  margin-left: 14em;
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
+}
+.otra .css-label {
+  margin-right: 1em;
+  color: #347dc6;
+  align-self: center;
+  justify-self: flex-end;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s linear;
+  transition: 0.5s;
+  font-size: 100px;
+}
+.otra .css-label:hover {
+  cursor: pointer;
+}
+.otra .html-cont {
+  margin-left: 9em;
+  margin-top: 10em;
+  display: flex;
+  justify-content: center;
+}
+.otra .html-label {
+  margin-right: 1em;
+  color: #ff6c39;
+  align-self: center;
+  justify-self: flex-end;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s linear;
+  transition: 0.5s;
+  font-size: 100px;
+}
+.otra .html-label:hover {
+  cursor: pointer;
+}
+.otra img {
+  width: 250px;
+  transition-duration: 1s;
+}
+.otra img:hover {
+  cursor: pointer;
+  width: 300px;
+}
+.otra H1 {
+  font-size: 150px;
+  margin-left: 1em;
+}
+
 .hero-container {
   padding: 8em;
   margin-top: 1em;
@@ -73,8 +154,12 @@ body {
 .hero-container .ver-mas:hover {
   background-color: black;
   color: white;
+  font-weight: bold;
 }
 
+.hero-section {
+  height: 100vh;
+}
 .hero-section h1 {
   font-size: 75px;
   width: 12em;

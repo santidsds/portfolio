@@ -13,7 +13,7 @@
 
 body {
     background: #EEEEEE;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .watermark, .watermark-2 {
@@ -68,7 +68,121 @@ body {
 
 
 
+.otra {
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 
+    .react-cont {
+        margin-top: 10em;
+        margin-left: 5em;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .react {
+        
+    }
+
+    .react-label {
+        
+        margin-right: 1em;
+        color: #00d8ff;
+        align-self: center;
+        justify-self: flex-end;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1s, opacity 1s linear;
+
+        transition: 0.5s;
+        font-size: 100px;
+        
+        &:hover {
+            cursor: pointer;
+            
+        }
+    }
+
+    .css-cont {
+        margin-left: 14em;
+        margin-top: 10em;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .css-label {
+        margin-right: 1em;
+        color: #347dc6;
+        align-self: center;
+        justify-self: flex-end;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1s, opacity 1s linear;
+
+        transition: 0.5s;
+        font-size: 100px;
+        
+        &:hover {
+            cursor: pointer;
+            
+        }
+    }
+
+    .html-cont {
+        margin-left: 9em;
+        margin-top: 10em;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .html-label {
+        margin-right: 1em;
+        color: #ff6c39;
+        align-self: center;
+        justify-self: flex-end;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1s, opacity 1s linear;
+
+        transition: 0.5s;
+        font-size: 100px;
+        
+        &:hover {
+            cursor: pointer;
+            
+        }
+    }
+
+    img {
+        width: 250px;
+        
+        transition-duration: 1s;
+
+        &:hover {
+            cursor: pointer;
+            width: 300px;
+        }
+    }
+    
+    
+    
+
+    H1 {
+        
+        font-size: 150px;
+        margin-left: 1em;
+        
+        
+        
+    }
+}
 
 .hero-container {
     padding: 8em;
@@ -92,6 +206,7 @@ body {
             &:hover{
                 background-color: black;
                 color: white;
+                font-weight: bold;
                 
                
             }
@@ -101,6 +216,7 @@ body {
 }
 
 .hero-section {
+    height: 100vh;
 
     h1 {
         font-size: 75px;
