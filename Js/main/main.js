@@ -106,7 +106,7 @@ jsLabel.addEventListener('mouseout', () => {
 })  
 
 //See more button
-
+/**
 let heroButton = document.getElementById('h-animation-3');
 let body = document.getElementById('body');
 
@@ -118,3 +118,5 @@ heroButton.addEventListener('click', () => {
 window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   }
+
+   */
